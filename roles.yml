@@ -1,0 +1,16 @@
+---
+- hosts: localhost
+  gather_facts: False
+  vars:
+    data_dir:        '{{ playbook_dir }}/'
+
+  tasks:
+    - block:
+      - include_vars: requirements.yml
+      - git:
+          repo: '{{ item.src }}'
+          clone: yes
+          version: '{{ item.version }}'
+          dest: '{{ data_dir }}{{ item.name }}'
+        name: get roles
+        with_items: '{{ repo_roles }}'

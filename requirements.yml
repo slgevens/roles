@@ -1,0 +1,95 @@
+---
+repo_roles:
+  - src: git@github.com:slgevens/ansible-ssmtp.git
+    name: sSMTP
+    version: master
+    
+  - src: git@github.com:slgevens/syslog-ng.git
+    name: syslog-ng
+    version: master
+    
+  - src: git@github.com:slgevens/ansible-rsyslog.git
+    name: rsyslog
+    version: master
+    
+  - src: git@github.com:slgevens/ansible-logrotate.git
+    name: logrotate
+    version: master
+    
+  - src: git@github.com:slgevens/ar-ntpdate.git
+    name: ntp-date
+    version: master
+    
+  - src: git@github.com:slgevens/snmpd.git
+    name: snmpd
+    version: master
+    
+  - src: git@github.com:slgevens/ar-make.git
+    name: make
+    version: master
+    
+  - src: git@github.com:slgevens/ar-user-account.git
+    name: user-account
+    version: master
+  
+  - src: git@github.com:slgevens/ar-hg-etc-com.git
+    scm: git
+    name: hg-etc-com
+    version: use-module
+  
+  - src: git@github.com:slgevens/ar-revaliases-ssmtp.git
+    name: revaliases-ssmtp
+    version: master
+    
+  - src: git@github.com:slgevens/ar-bsd-mailx.git
+    name: bsd-mailx
+    version: master
+  
+  - src: git@github.com:slgevens/ar-jsonnet.git
+    name: jsonnet
+    version: master
+  
+  - src: git@github.com:slgevens/ansible-role-munin-node.git
+    name: munin-node
+    version: master  
+  
+  - src: git@github.com:slgevens/selfsigned-cert-ansible.git
+    name: selfsigned-cert-ansible
+    version: master
+  
+  - src: git@github.com:slgevens/ar-sudoersd.git
+    name: sudo
+    version: master
+  
+  - src: git@github.com:slgevens/ar-duplicity.git
+    name: duplicity
+    version: master
+  
+  - src: git@github.com:slgevens/ar-runp
+    name: runp
+    version: master
+  
+  - src: git@github.com:slgevens/ar-filter_plugins-misc
+    name: misc-filters
+    version: master
+  
+  - src: git@github.com:slgevens/ansible-augeas.git
+    name: augeas
+    version: master
+  
+  - src: git@github.com:slgevens/ansible-sshd.git
+    name: sshd
+    version: master
+  
+  - src: git@github.com:slgevens/ar-mysql-server-replication.git
+    name: mysql-server-replication
+    version: master
+  
+  - src: git@github.com:slgevens/ar-mysql-replication.git
+    name: mysql-replication
+    version: master
+
+  - src: git@github.com:slgevens/mysql.git
+    name: evens-mysql
+    version: master
+  

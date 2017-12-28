@@ -1,0 +1,2 @@
+# -*- Mode: conf; -*-
+localhost ansible_connection=local
