@@ -24,9 +24,5 @@ Example source file :
         name: rsyslog
         version: master
 ```
-## License
-MIT [./LICENSE]
-
 ## Author
-
 Evens SOLIGNAC
