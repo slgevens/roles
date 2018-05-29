@@ -33,7 +33,6 @@ repo_roles:
     version: master
   
   - src: git@github.com:slgevens/ar-hg-etc-com.git
-    scm: git
     name: hg-etc-com
     version: use-module
   
@@ -93,3 +92,5 @@ repo_roles:
     name: evens-mysql
     version: master
   
+  - src: git@github.com:slgevens/shorewall_simple.git
+    name: shorewall

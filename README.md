@@ -6,7 +6,11 @@
 ## Requirements
 ```
 	Ansible : <1.9 min
-	Ope. System : Mac OS, Linux ...
+	Ope. System : Mac OS, Linux ...	
+```
+
+```console
+evens@esc-ws:~$ make once
 ```
 
 ## Variables

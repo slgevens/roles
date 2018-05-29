@@ -2,7 +2,7 @@
 - hosts: localhost
   gather_facts: False
   vars:
-    data_dir:        '{{ playbook_dir }}/'
+    data_dir:        '{{ playbook_dir }}/roles'
 
   tasks:
     - block:
