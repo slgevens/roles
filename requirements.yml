@@ -94,3 +94,12 @@ repo_roles:
   
   - src: git@github.com:slgevens/shorewall_simple.git
     name: shorewall
+    version: master
+
+  - src: git@github.com:slgevens/ansible-isc-dhcp-server.git
+    name: isc-dhcp-server
+    version: master
+
+  - src: git@github.com:slgevens/ansible-role-fail2ban.git
+    name: ansible-role-fail2ban
+    version: master
