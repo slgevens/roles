@@ -103,3 +103,15 @@ repo_roles:
   - src: git@github.com:slgevens/ansible-role-fail2ban.git
     name: ansible-role-fail2ban
     version: master
+
+  - src: git@github.com:slgevens/ansible-libreswan.git
+    name: ansible-libreswan
+    version: master
+
+  - src: git@github.com:slgevens/ansible-squid.git
+    name: ansible-squid
+    version: master
+
+  - src: git@github.com:slgevens/ansible-role-exim4.git
+    name: ansible-role-exim4
+    version: master
