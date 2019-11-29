@@ -115,3 +115,11 @@ repo_roles:
   - src: git@github.com:slgevens/ansible-role-exim4.git
     name: ansible-role-exim4
     version: master
+
+  - src: git@github.com:slgevens/ansible-haproxy.git
+    name: ansible-haproxy
+    version: master
+
+  - src: git@github.com:slgevens/ansible-users.git
+    name: ansible-users
+    version: master
